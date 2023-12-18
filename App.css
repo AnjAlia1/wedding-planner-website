@@ -1,0 +1,138 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:purple;
+    padding:24px;
+    color:white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size:24px;
+}
+.nav-section>a{
+    color:white;
+   /* padding: 14px; */
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size:30px;
+    text-decoration: none;
+}
+.hero-section{
+     display: flex;
+    flex-direction: row;
+    font-weight: 200;
+    font-size:20px;
+     font-family: 'Ubuntu', sans-serif;
+     margin-top: 56px;
+}
+.hero-section>img{
+    /* max-width:480px; */
+    width:480px;
+    margin-right:5%;
+    /* max-height:100% ;  */
+}
+.hero-section h1{
+     font-family: 'Cormorant Garamond', serif;
+    
+}
+
+.first-row-of-services,.second-row-of-services{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first-row-of-services>img{
+    width:30%;
+}
+
+.services-section h2{
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 32px;
+}
+
+.second-row-of-services>img{
+    width: 30%;
+    margin-top: 24px;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin-top:24px;            
+     /* doubt */
+}
+img{
+     box-shadow: 0 0 4px purple;
+}
+
+.fa-instagram{
+    color:red;
+}
+
+.fa-facebook{
+    color:skyblue;
+}
+
+.fa-twitter{
+    color:blue;
+}
+
+
+
+/* For Iphone5SE 320PX 568PX */
+
+@media screen  and (max-width:896px){
+    .container{
+        margin:20px;
+    }
+  .header{
+    padding: 18px 1px;
+     justify-content: space-between; 
+    color:white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size:16px;
+}
+.nav-section>a{
+    color:white;
+   padding: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size:16px;
+}
+
+   .hero-section{
+     display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.hero-section>img{
+    width:100%;
+}
+
+.services-section h2{
+     
+     font-size: 24px;
+}
+
+   .services-section{
+       display: flex;
+       flex-direction: column;
+   }
+   .first-row-of-services{
+       flex-direction: column;
+   }
+    .second-row-of-services{
+        flex-direction: column;
+    }
+    
+    .first-row-of-services>img{
+    width:100%;
+    margin-top:15px;
+}
+.second-row-of-services>img{
+    width: 100%;
+    margin-top: 15px;
+}
+}
